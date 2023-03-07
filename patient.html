@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="labopro_css/boostrap/css/bootstrap.min.css">
+    <script src="labopro_js/boostrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="labopro_css/labopro.css">
+    <title>Patient</title>
+</head>
+<body>
+    <div class="ensemble_patient">
+        <div class="lateral">
+
+            <div class="presentation">
+              <span>BIENVENUE SUR <span id="nom_labo">LABOPRO</span> </span>
+              <span class="nom_utilisateur"></span>
+            </div>
+
+            <div class="nav_bar">
+                <p class="bloc_lien">
+                    <a href="#"> <span class=""></span> Accueil</a>
+                </p>
+
+                <p class="bloc_lien">
+                    <a href="#">Utilisateur</a>
+                </p>
+
+                <p class="bloc_lien">
+                    <a href="patient.html">Patient</a>
+                </p>
+
+                <p class="bloc_lien">
+                    <a href="employe.html">Employé</a>
+                </p>
+                
+                <p class="bloc_lien">
+                    <a href="#">Service</a>
+                </p>
+
+                <p>
+                    <input type="button" value="Aide "  class="aide" onclick="message_daide()" class="aide">
+                </p>
+
+                <p>
+                    <input type="button" value="Quitter" class="quitter" onclick="quitter()" class="quitter">
+                </p>
+
+            </div>
+        </div>
+
+      <div class="info_patient">
+        <section>
+            <header>
+                <p>Liste des patients enregistrés. Vous pouevez modifier les informations sur ces derniers</p>
+                <div class="container" style="width:500px">
+                    <input type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#form_patient" value= "Ajouter un patient">
+                    <div class="modal fade" id="form_patient">
+                        <div class="modal-fullscreen">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-toggle="modal">X</button>
+                                    <h3 class="modal-title">Veillez entre les inforamtions du patient</h3>
+                                </div>
+                                <div class="glyphicon glyphicon-add">
+                                    
+                                </div>
+                                <div class="modal-body">
+                                    <form action="" method="post">
+                                        <div class="form"></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </section>
+      </div>
+
+    </div>
+</body>
+</html>
