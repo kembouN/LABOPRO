@@ -1,0 +1,244 @@
+/*--------- Mise en forme de la page d'accueil  -----------*/
+
+@font-face {
+    font-family: 'Anton';
+    src: url('Anton/Anton.eot') format('eot'),
+         url('Anton/Anton.ttf') format('ttf'),
+         url('Anton/Anton.woff') format('woff'),
+         url('Anton/Anton.otf') format('otf'),
+         url('Anton/Anton.svg') format('svg');
+}
+
+.ensemble_accueil
+{
+    display: flex;
+    flex-direction: row;
+    background-color: azure;
+}
+
+.lateral
+{
+    padding: 30px 0px 30px 15px;
+    height: max-content;
+    background-color: rgb(1, 1, 24);
+}
+
+.nav_bar
+{
+    margin-top: 25px;
+    color: rgba(203, 245, 15, 0.902);
+}
+
+
+.lateral a
+{
+    display: inline-block;
+    color: rgba(8, 229, 249, 0.959);
+    padding: 10px 170px 10px 0px;
+    text-decoration: rgba(174, 219, 11, 0.863);
+    font-size: 1.5em;
+}
+
+.lateral a:focus
+{
+    border-right: orange solid 10px;
+    background-blend-mode: luminosity;
+    background-color: rgb(0, 140, 255);
+    backdrop-filter: blur(5px);
+}
+
+.lateral a:hover
+{
+    color: rgb(180, 234, 55);
+    border-radius: 5px solid blue;
+}
+
+.nav_bar input
+{
+    border: solid 0.1px ;
+    border-radius: 10%;
+    color: rgba(8, 229, 249, 0.959);
+    z-index: 2;
+}
+
+.aide
+{
+    background-color: blue;
+}
+
+.quitter
+{
+    background-color: red;
+}
+
+.information
+{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+}
+
+.description
+{
+    width: 100%;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    z-index: 2;
+}
+
+.description p
+{
+    margin: 10px;
+    padding: auto;
+    
+}
+
+#nom_labo
+{
+    font-family:'Courier New', Courier, monospace;
+    font-size:x-large;
+    color: aqua;
+}
+
+.renseigne
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.exam_employe
+{
+    display: flex;
+}
+
+.renseigne_employe
+{
+    margin: 10px 0px 0px 0px;
+    z-index: 1;
+    padding: 10px;
+    background-color: rgb(1, 1, 24);
+    font-size: 1em;
+    color: rgb(143, 64, 246);
+    width: 45%;
+}
+
+.renseigne_employe p
+{
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+.container
+{
+    margin-top: 10px;
+    width: 500px;
+}
+
+.container .progress
+{
+    margin: 0px;
+}
+
+.renseigne_employe .progress
+{
+    height: 50px;
+    margin: 10px;
+}
+
+.progress-bar span
+{
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+.renseigne_examen
+{
+    background-color: slategray;
+    border: 2px solid blue;
+    margin: 20px;
+}
+
+.renseigne_utilisateur
+{
+    background-color: slategray;
+    border: 2px solid;
+    margin: 20px;
+}
+
+
+/* ----------   Mise en forme de la page de connexion  ------------*/
+
+.ensemble_connexion
+{
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    right: 15%;
+    bottom: 15%;
+    padding: 10px;
+    background-color: rgb(165, 193, 246);
+}
+
+h1,h3
+{
+    text-align: center
+}
+
+.header_connexion
+{
+    margin: 5px 15px 50px 50px;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 4px;
+}
+
+.formulaire_connexion
+{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.champ1, .champ2
+{
+    width: 50%;
+    margin: 10px auto;
+    height: 28px;
+    padding: 5px;
+}
+
+.erreur
+{
+    font-size: 0.6em;
+    color: red;
+    margin: 0px 10px 20px 245px;
+     
+}
+
+.mdpoublie
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.connecter
+{
+    background-color: aqua;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif ;
+    font-style: italic;
+    position: absolute;
+    left: 75%;
+    top: 80%;
+}
+
+/*--------------- Mise en forme de la page des patients---------------------*/
+
+.ensemble_patient
+{
+    display: flex;
+}
