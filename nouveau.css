@@ -1,0 +1,127 @@
+.container-fluid
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.presentation_accueil
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    bottom: 5%;
+    padding: 20px 100px 10px 100px;
+    margin-top: 10px;
+}
+
+.bloc_lien
+{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.bloc_lien a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(138, 255, 108, 0.911);
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.arriereplan
+{
+    background-color: gray;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
+
+.bloc_lien a:hover
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+.arriereplan:hover
+{
+    border-radius: 10%;
+    background-color: rgb(146, 145, 133);
+    width: 200px;
+    height: 200px;
+}
+
+.lien_entete
+{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row-reverse;
+    padding: 5px 50px 0px 0px;
+    margin: 20px 200px 30px 200px ;
+    background-color: rgb(6, 1, 46);
+    color: white;
+    height: 50px;
+}
+
+.lien_entete button
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    background-color: brown;
+}
+
+.user
+{
+    position: absolute;
+    left: 20%;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px whitesmoke solid;
+    width: 40px;
+    height: 40px;
+
+}
+.user img
+{
+    width: 35px;
+    margin: auto;
+}
+
+.msg_bienvenue
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    position: absolute;
+    left: 40%;
+
+}
+
+.msg_bienvenue span
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.msg_bienvenue img
+{
+    width: 50px;
+    height: 50px;
+    margin: -5px 0px 0px -50px;
+}
